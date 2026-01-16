@@ -1,10 +1,10 @@
 
-import React, { useState, useRef, useEffect } from 'react';
-import { analyzeChart, analyzeChartFromLink } from 'geminiService';
-import { ScalpAnalysis, AnalysisRecord, SignalType, TradingStyle } from 'types';
-import AnalysisResult from 'AnalysisResult';
-import HistoryList from 'HistoryList';
-import VolatilityScanner from 'VolatilityScanner';
+import React, { useState, useRef, useEffect } from './react';
+import { analyzeChart, analyzeChartFromLink } from './geminiService';
+import { ScalpAnalysis, AnalysisRecord, SignalType, TradingStyle } from './types';
+import AnalysisResult from './AnalysisResult';
+import HistoryList from './HistoryList';
+import VolatilityScanner from './VolatilityScanner';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'ANALYZER' | 'SCANNER'>('ANALYZER');
