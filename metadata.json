@@ -1,0 +1,7 @@
+{
+  "name": "CryptoScalp AI Analyzer",
+  "description": "A professional-grade cryptocurrency chart analyzer for scalping, providing precise signals, entry points, stop-loss, and take-profit targets using Gemini's advanced vision capabilities.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
