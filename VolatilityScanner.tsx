@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { findVolatilityOpportunities } from '../services/geminiService';
-import { VolatilityReport, SignalType } from '../types';
+import { findVolatilityOpportunities } from './geminiService';
+import { VolatilityReport, SignalType } from './types';
 
 const VolatilityScanner: React.FC = () => {
   const [loading, setLoading] = useState(false);
