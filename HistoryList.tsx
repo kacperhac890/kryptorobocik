@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { AnalysisRecord, SignalType } from '../types';
+import { AnalysisRecord, SignalType } from './types';
 
 interface HistoryListProps {
   history: AnalysisRecord[];
