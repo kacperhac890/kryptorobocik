@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ScalpAnalysis, SignalType } from '../types';
+import { ScalpAnalysis, SignalType } from './types';
 
 interface AnalysisResultProps {
   result: ScalpAnalysis;
